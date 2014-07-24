@@ -1,0 +1,87 @@
+#!/usr/bin/env node
+
+var parser = require('nomnom')
+  , colors = require('colors')
+  , tfl = require('../index');
+
+colors.setTheme({
+    title: 'blue',
+    label: 'green',
+    info: 'white',
+    warn: 'yellow',
+    error: 'red',
+});
+
+parser.command('tube')
+    .option('line', {
+        abbr: 'l',
+        help: 'Name of a tube line for which to search'
+    })
+    .option('station', {
+        abbr: 's',
+        help: 'Name of a tube station for which to search'
+    });
+    // .option('north', {
+    //     abbr: 'n',
+    //     help: 'Get northbound status',
+    //     flag: true
+    // })
+    // .option('south', {
+    //     abbr: 's',
+    //     help: 'Get southbound status',
+    //     flag: true
+    // })
+    // .option('east', {
+    //     abbr: 'e',
+    //     help: 'Get eastbound status',
+    //     flag: true
+    // })
+    // .option('west', {
+    //     abbr: 'w',
+    //     help: 'Get westbound status',
+    //     flag: true
+    // });
+
+parser.command('overground');
+
+var opts = parser.parse();
+
+// console.log(opts);
+
+switch (opts[0]) {
+    case 'tube':
+        if (opts.station) {
+
+        } else {
+            var lines = [];
+            if (opts.line) {
+                lines.push(opts.line);
+            }
+
+            tfl.tube.status({
+                'lines': lines
+            }).then(function(lines) {
+                console.log('TFL Tube Status'.title.bold);
+
+                lines.forEach(function(line) {
+                    var title = line.line.label + ' Line'.label + ': ';
+                    if (line.incident) {
+                        title += line.status.error;
+                    } else {
+                        title += line.status.info;
+                    }
+                    console.log(title);
+                    if (line.statusDescription.length > 0) {
+                        console.log(line.statusDescription.warn);
+                    }
+                });
+            });
+
+            if (lines.length > 0) {
+                // tfl.tube.line({
+                //     'line': lines[0],
+                // }).then(function() { });
+            }
+        }
+        break;
+}

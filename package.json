@@ -1,0 +1,21 @@
+{
+  "name": "tfl",
+  "version": "0.0.0",
+  "description": "Transport for London (TFL) API",
+  "main": "index.js",
+  "keywords": [
+    "tfl",
+    "transport for london",
+    "london",
+    "transport"
+  ],
+  "author": "Laurence Roberts <lsjroberts@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "libxmljs": "^0.11.0",
+    "nomnom": "^1.8.0",
+    "q": "^1.0.1",
+    "request": "^2.38.0",
+    "underscore": "^1.6.0"
+  }
+}
