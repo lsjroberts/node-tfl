@@ -1,0 +1,54 @@
+{
+    "Bakerloo": {
+        "code": "B",
+        "color": "894E24"
+    },
+    "Central": {
+        "code": "C",
+        "color": "DC241F"
+    },
+    "Circle": {
+        "code": false,
+        "color": "FFCE00"
+    },
+    "District": {
+        "code": "D",
+        "color": "007229"
+    },
+    "DLR": {
+        "code": false,
+        "color": "00AFAD"
+    },
+    "Hammersmith and City": {
+        "code": "H",
+        "color": "D799AF"
+    },
+    "Jubilee": {
+        "code": "J",
+        "color": "6A7278"
+    },
+    "Metropolitan": {
+        "code": "M",
+        "color": "600D47"
+    },
+    "Northern": {
+        "code": "N",
+        "color": "000000"
+    },
+    "Overground": {
+        "code": false,
+        "color": "E86A10"
+    },
+    "Piccadilly": {
+        "code": "P",
+        "color": "001591"
+    },
+    "Victoria": {
+        "code": "V",
+        "color": "00A0E2"
+    },
+    "Waterloo and City": {
+        "code": "W",
+        "color": "76D0BD"
+    }
+}

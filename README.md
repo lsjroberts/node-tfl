@@ -109,6 +109,12 @@ tfl.tube.station('Aldgate East');
 tfl.overground.station('London Bridge');
 ```
 
+**Arrivals**
+```js
+tfl.tube.arrivals('Aldgate East');
+// overground?
+```
+
 **Journey**
 ```js
 tfl.tube.journey(['Monument', 'Aldgate East']);
