@@ -58,13 +58,13 @@ switch (opts[0]) {
                 lines.push(opts.line);
             }
 
-            tfl.tube.status({
+            tfl.tube.lines.status({
                 'lines': lines
             }).then(function(lines) {
                 console.log('TFL Tube Status'.title.bold);
 
                 lines.forEach(function(line) {
-                    var title = line.line.label + ' Line'.label + ': ';
+                    var title = line.name.label + ': ';
                     if (line.incident) {
                         title += line.status.error;
                     } else {
