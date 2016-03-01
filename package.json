@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^0.6.2",
-    "libxmljs": "^0.11.0",
+    "libxmljs": "^0.17.0",
     "nomnom": "^1.8.0",
     "q": "^1.0.1",
     "request": "^2.38.0",
