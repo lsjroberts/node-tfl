@@ -367,13 +367,9 @@
             "Northern"
         ]
     },
-    "Edgware Road (Bakerloo)": {
+    "Edgware Road": {
         "tube_lines": [
-            "Bakerloo"
-        ]
-    },
-    "Edgware Road (H & C)": {
-        "tube_lines": [
+            "Bakerloo",
             "District",
             "Hammersmith and City",
             "Circle"
@@ -655,7 +651,7 @@
             "Bakerloo"
         ]
     },
-    "Kensington (Olympia)": {
+    "Kensington Olympia": {
         "tube_lines": [
             "District"
         ]
