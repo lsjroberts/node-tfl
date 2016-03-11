@@ -28,22 +28,22 @@ $ tfl tube --line District
 $ tfl tube --station Aldgate East
 ```
 
-### Overground
+### Overground (Work in Progress)
 ```
 $ tfl overground --station London Bridge
 ```
 
-### Buses
+### Buses (Work in Progress)
 ```
 $ tfl bus --route 66
 ```
 
-### Cycle Hire
+### Cycle Hire (Work in Progress)
 ```
 $ tfl cycle ...
 ```
 
-### Roads
+### Roads (Work in Progress)
 
 **Road Status**
 ```
@@ -97,25 +97,25 @@ tfl.tube.status({ 'incidents': true });
 tfl.overground.status({ 'incidents': true });
 ```
 
-**Line**
+**Line (Work in Progress)**
 ```js
 tfl.tube.line('District');
 // Overground services do not provide line information
 ```
 
-**Station**
+**Station (Work in Progress)**
 ```js
 tfl.tube.station('Aldgate East');
 tfl.overground.station('London Bridge');
 ```
 
-**Arrivals**
+**Arrivals (Work in Progress)**
 ```js
 tfl.tube.arrivals('Aldgate East');
 // overground?
 ```
 
-**Journey**
+**Journey (Work in Progress)**
 ```js
 tfl.tube.journey(['Monument', 'Aldgate East']);
 tfl.overground.journey(['East Croydon', 'Victoria', 'Shoreditch High Street']);
