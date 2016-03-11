@@ -1,5 +1,1420 @@
 {
-    "Algate East": {
-        "tube_lines": ["District"]
+    "Acton Town": {
+        "tube_lines": [
+            "District",
+            "Piccadilly"
+        ]
+    },
+    "Aldgate": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan"
+        ]
+    },
+    "Aldgate East": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Alperton": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Amersham": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Angel": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Archway": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Arnos Grove": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Arsenal": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Baker Street": {
+        "tube_lines": [
+            "Bakerloo",
+            "Hammersmith and City",
+            "Circle",
+            "Jubilee",
+            "Metropolitan"
+        ]
+    },
+    "Balham": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Bank": {
+        "tube_lines": [
+            "Central",
+            "Northern",
+            "Waterloo & City"
+        ]
+    },
+    "Barbican": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan"
+        ]
+    },
+    "Barking": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Barkingside": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Barons Court": {
+        "tube_lines": [
+            "District",
+            "Piccadilly"
+        ]
+    },
+    "Becontree": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Belsize Park": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Bermondsey": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Bethnal Green": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Blackfriars": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Blackhorse Road": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Bond Street": {
+        "tube_lines": [
+            "Central",
+            "Jubilee"
+        ]
+    },
+    "Borough": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Boston Manor": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Bounds Green": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Bow Road": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Brent Cross": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Brixton": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Bromley-by-Bow": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Buckhurst Hill": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Burnt Oak": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Caledonian Road": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Camden Town": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Canada Water": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Canary Wharf": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Canning Town": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Cannon Street": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Canons Park": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Chalfont and Latimer": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Chalk Farm": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Chancery Lane": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Charing Cross": {
+        "tube_lines": [
+            "Bakerloo",
+            "Northern"
+        ]
+    },
+    "Chigwell": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Chiswick Park": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Chorleywood": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Clapham Common": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Clapham North": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Clapham South": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Cockfosters": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Colindale": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Colliers Wood": {
+        "tube_lines": [
+            "Metropolitan",
+            "Northern"
+        ]
+    },
+    "Covent Garden": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Croxley": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Dagenham East": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Dagenham Heathway": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Debden": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Dollis Hill": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Ealing Broadway": {
+        "tube_lines": [
+            "Central",
+            "District"
+        ]
+    },
+    "Ealing Common": {
+        "tube_lines": [
+            "District",
+            "Piccadilly"
+        ]
+    },
+    "Earl's Court": {
+        "tube_lines": [
+            "District",
+            "Piccadilly"
+        ]
+    },
+    "East Acton": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "East Finchley": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "East Ham": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "East Putney": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Eastcote": {
+        "tube_lines": [
+            "Metropolitan",
+            "Piccadilly"
+        ]
+    },
+    "Edgware": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Edgware Road": {
+        "tube_lines": [
+            "Bakerloo",
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Elephant and Castle": {
+        "tube_lines": [
+            "Bakerloo",
+            "Northern"
+        ]
+    },
+    "Elm Park": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Embankment": {
+        "tube_lines": [
+            "Bakerloo",
+            "District",
+            "Hammersmith and City",
+            "Circle",
+            "Northern"
+        ]
+    },
+    "Epping": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Euston": {
+        "tube_lines": [
+            "Northern",
+            "Victoria"
+        ]
+    },
+    "Euston Square": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan"
+        ]
+    },
+    "Fairlop": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Farringdon": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan"
+        ]
+    },
+    "Finchley Central": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Finchley Road": {
+        "tube_lines": [
+            "Jubilee",
+            "Metropolitan"
+        ]
+    },
+    "Finsbury Park": {
+        "tube_lines": [
+            "Piccadilly",
+            "Victoria"
+        ]
+    },
+    "Fulham Broadway": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Gants Hill": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Gloucester Road": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle",
+            "Piccadilly"
+        ]
+    },
+    "Golders Green": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Goodge Street": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Grange Hill": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Great Portland Street": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan"
+        ]
+    },
+    "Green Park": {
+        "tube_lines": [
+            "Jubilee",
+            "Piccadilly",
+            "Victoria"
+        ]
+    },
+    "Greenford": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Gunnersbury": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Hainault": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Hammersmith": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Hammersmith (District and Picc)": {
+        "tube_lines": [
+            "District",
+            "Piccadilly"
+        ]
+    },
+    "Hampstead": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Hanger Lane": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Harlesden": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Harrow and Wealdstone": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Harrow on the Hill": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Hatton Cross": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Heathrow Terminal 4": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Heathrow Terminal 5": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Heathrow Terminals 123": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Hendon Central": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "High Barnet": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "High Street Kensington": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Highbury and Islington": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Highgate": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Hillingdon": {
+        "tube_lines": [
+            "Metropolitan",
+            "Piccadilly"
+        ]
+    },
+    "Holborn": {
+        "tube_lines": [
+            "Central",
+            "Piccadilly"
+        ]
+    },
+    "Holland Park": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Holloway Road": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Hornchurch": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Hounslow Central": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Hounslow East": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Hounslow West": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Hyde Park Corner": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Ickenham": {
+        "tube_lines": [
+            "Metropolitan",
+            "Piccadilly"
+        ]
+    },
+    "Kennington": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Kensal Green": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Kensington Olympia": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Kentish Town": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Kenton": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Kew Gardens": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Kilburn": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Kilburn Park": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "King's Cross St Pancras": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan",
+            "Northern",
+            "Piccadilly",
+            "Victoria"
+        ]
+    },
+    "Kingsbury": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Knightsbridge": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Lambeth North": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Lancaster Gate": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Leicester Square": {
+        "tube_lines": [
+            "Northern",
+            "Piccadilly"
+        ]
+    },
+    "Leyton": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Leytonstone": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Liverpool Street": {
+        "tube_lines": [
+            "Central",
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan"
+        ]
+    },
+    "London Bridge": {
+        "tube_lines": [
+            "Jubilee",
+            "Northern"
+        ]
+    },
+    "Loughton": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Maida Vale": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Manor House": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Mansion House": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Marble Arch": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Marylebone": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Mile End": {
+        "tube_lines": [
+            "Central",
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Mill Hill East": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Monument": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Moor Park": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Moorgate": {
+        "tube_lines": [
+            "Hammersmith and City",
+            "Circle",
+            "Metropolitan",
+            "Northern"
+        ]
+    },
+    "Morden": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Mornington Crescent": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Neasden": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Newbury Park": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "North Acton": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "North Ealing": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "North Greenwich": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "North Harrow": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "North Wembley": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Northfields": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Northolt": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Northwick Park": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Northwood": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Northwood Hills": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Notting Hill Gate": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Oakwood": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Old Street": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Osterley": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Oval": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Oxford Circus": {
+        "tube_lines": [
+            "Bakerloo",
+            "Central",
+            "Victoria"
+        ]
+    },
+    "Paddington": {
+        "tube_lines": [
+            "Bakerloo",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Park Royal": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Parsons Green": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Perivale": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Piccadilly Circus": {
+        "tube_lines": [
+            "Bakerloo",
+            "Piccadilly"
+        ]
+    },
+    "Pimlico": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Pinner": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Plaistow": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Putney Bridge": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Queen's Park": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Queensbury": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Queensway": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Ravenscourt Park": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Rayners Lane": {
+        "tube_lines": [
+            "Metropolitan",
+            "Piccadilly"
+        ]
+    },
+    "Redbridge": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Regent's Park": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Richmond": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Rickmansworth": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Roding Valley": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Ruislip": {
+        "tube_lines": [
+            "Metropolitan",
+            "Piccadilly"
+        ]
+    },
+    "Ruislip Gardens": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Ruislip Manor": {
+        "tube_lines": [
+            "Metropolitan",
+            "Piccadilly"
+        ]
+    },
+    "Russell Square": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Seven Sisters": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Shepherd's Bush": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Sloane Square": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Snaresbrook": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "South Ealing": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "South Harrow": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "South Kensington": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle",
+            "Piccadilly"
+        ]
+    },
+    "South Kenton": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "South Ruislip": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "South Wimbledon": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "South Woodford": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Southfields": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Southgate": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Southwark": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "St John's Wood": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "St Paul's": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "St. James's Park": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Stamford Brook": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Stanmore": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Stepney Green": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Stockwell": {
+        "tube_lines": [
+            "Northern",
+            "Victoria"
+        ]
+    },
+    "Stonebridge Park": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Stratford": {
+        "tube_lines": [
+            "Central",
+            "Jubilee"
+        ]
+    },
+    "Sudbury Hill": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Sudbury Town": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Swiss Cottage": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Temple": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Theydon Bois": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Tooting Bec": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Tooting Broadway": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Tottenham Court Road": {
+        "tube_lines": [
+            "Central",
+            "Northern"
+        ]
+    },
+    "Tottenham Hale": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Totteridge and Whetstone": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Tower Hill": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Tufnell Park": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "Turnham Green": {
+        "tube_lines": [
+            "District",
+            "Piccadilly"
+        ]
+    },
+    "Turnpike Lane": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Upminster": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Upminster Bridge": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Upney": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Upton Park": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Uxbridge": {
+        "tube_lines": [
+            "Metropolitan",
+            "Piccadilly"
+        ]
+    },
+    "Vauxhall": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Victoria": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle",
+            "Victoria"
+        ]
+    },
+    "Walthamstow Central": {
+        "tube_lines": [
+            "Victoria"
+        ]
+    },
+    "Wanstead": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Warren Street": {
+        "tube_lines": [
+            "Northern",
+            "Victoria"
+        ]
+    },
+    "Warwick Avenue": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Waterloo": {
+        "tube_lines": [
+            "Bakerloo",
+            "Jubilee",
+            "Northern",
+            "Waterloo & City"
+        ]
+    },
+    "Watford": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "Wembley Central": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Wembley Park": {
+        "tube_lines": [
+            "Jubilee",
+            "Metropolitan"
+        ]
+    },
+    "West Acton": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "West Brompton": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "West Finchley": {
+        "tube_lines": [
+            "Northern"
+        ]
+    },
+    "West Ham": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle",
+            "Jubilee"
+        ]
+    },
+    "West Hampstead": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "West Harrow": {
+        "tube_lines": [
+            "Metropolitan"
+        ]
+    },
+    "West Kensington": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "West Ruislip": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Westminster": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle",
+            "Jubilee"
+        ]
+    },
+    "White City": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Whitechapel": {
+        "tube_lines": [
+            "District",
+            "Hammersmith and City",
+            "Circle"
+        ]
+    },
+    "Willesden Green": {
+        "tube_lines": [
+            "Jubilee"
+        ]
+    },
+    "Willesden Junction": {
+        "tube_lines": [
+            "Bakerloo"
+        ]
+    },
+    "Wimbledon": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Wimbledon Park": {
+        "tube_lines": [
+            "District"
+        ]
+    },
+    "Wood Green": {
+        "tube_lines": [
+            "Piccadilly"
+        ]
+    },
+    "Woodford": {
+        "tube_lines": [
+            "Central"
+        ]
+    },
+    "Woodside Park": {
+        "tube_lines": [
+            "Northern"
+        ]
     }
 }
