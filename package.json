@@ -1,6 +1,6 @@
 {
   "name": "tfl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Transport for London (TFL) API",
   "main": "index.js",
   "keywords": [

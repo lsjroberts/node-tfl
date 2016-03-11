@@ -51,29 +51,57 @@ var opts = parser.parse();
 switch (opts[0]) {
     case 'tube':
         if (opts.station) {
+            console.log('TFL Tube Status'.title.bold);
+            tfl.tube.stations.status()
+                .then(function(stations){
+                    stations.filter(function(station){
+                        if(opts.station === station.name){
+                            var title = station.name.label + ': ';
+                            if (station.incident) {
+                                title += station.status.error;
+                            } else {
+                                title += station.status.info;
+                            }
+                            console.log(title);
+                            if (station.statusDescription.length > 0) {
+                                console.log(line.statusDescription.warn);
+                            }
+                        }
+                    });
+                });
 
         } else {
             var lines = [];
             if (opts.line) {
                 lines.push(opts.line);
             }
-
+            else{
+                for(k in tfl.tube.lines.values){
+                    lines.push(k);
+                }
+            }
+            var passedLines = lines;
             tfl.tube.lines.status({
-                'lines': lines
+                // 'lines': lines
+                // There is no way to do this with the legacy API
             }).then(function(lines) {
                 console.log('TFL Tube Status'.title.bold);
 
                 lines.forEach(function(line) {
-                    var title = line.name.label + ': ';
-                    if (line.incident) {
-                        title += line.status.error;
-                    } else {
-                        title += line.status.info;
-                    }
-                    console.log(title);
-                    if (line.statusDescription.length > 0) {
-                        console.log(line.statusDescription.warn);
-                    }
+                    passedLines.forEach(function(k){
+                        if(k===line.name){
+                            var title = line.name.label + ': ';
+                            if (line.incident) {
+                                title += line.status.error;
+                            } else {
+                                title += line.status.info;
+                            }
+                            console.log(title);
+                            if (line.statusDescription.length > 0) {
+                                console.log(line.statusDescription.warn);
+                            }
+                        }
+                    });
                 });
             });
 
